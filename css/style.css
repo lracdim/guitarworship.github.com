@@ -1,0 +1,802 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Century Gothic;
+	background: #f7F7F7;
+}
+
+a {
+	text-decoration: none;
+}
+/*Header*/
+header {
+	width: 100%;
+	height: 550px;
+	background: url(../img/guitar1.jpg), no-repeat;
+	background-size: cover;
+}
+header .header-content {
+	width: 100%;
+	height: 550px;
+	background: rgba(0,0,0,0.5);
+}
+header nav {
+	padding: 10px 70px 20px; 
+}
+
+header nav ul {
+ 	float: right;
+ 	margin-top: -40px ;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+nav ul li a {
+	margin:0 15px; 
+	color: #fff;
+	text-transform: uppercase;
+	transition: 1s ease;
+}
+.active {
+	background: rgb(136,36,181);
+	padding: 7px;
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 1em;
+	letter-spacing: 1px;
+
+}
+
+nav ul li:hover{
+	background: rgba(136,36,181,0.7);
+	padding: 7px;
+	border-radius: 5px;
+	font-weight: 1000;
+	letter-spacing: 2px;
+
+}
+
+header h1{
+	text-decoration: none;
+}
+
+.logo {
+	width: 160px;
+	border:2px solid rgba(255,255,255,0.9);
+	padding:10px 20px;
+	border-radius: 20px; 
+	font-weight: 300;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	letter-spacing: -1px;
+}
+
+.banner {
+	width: 100%;
+	color: #fff;
+	padding-top: 100px; 
+	text-align: center;
+}
+
+.banner h1{
+	color: #fff;
+	padding-bottom: 30px; 
+	text-align: center;
+	font-size: 3rem;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.banner p{
+	font-size: 1.5rem;
+	padding: 0 150px;
+	line-height: 2rem;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin-bottom: 70px;
+}
+
+.banner i {
+	color: #fff;
+	border-radius: 50%;
+	animation: move 1s infinite alternate;
+}
+
+ @keyframes move {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(20px);
+        }
+}
+/* End of Header */
+
+/* Worship Container */
+.worship-container {
+	position: relative;
+	width: 100%;
+	padding: 50px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.worship-container .wor-box {
+	padding: 10px 0px;
+	width: 300px;
+
+}
+
+
+.worship-container .wor-box .wor-content {
+	margin: 0 10px;
+	background: #FFF;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 20px 10px rgba(0,0,0,0.3);
+}
+
+.worship-container .wor-box .wor-content img {
+	width: 240px;
+}
+
+.worship-container .wor-box .wor-content p {
+	padding: 20px 0 10px;
+	text-align: center;
+}
+.worship-container .wor-box .wor-content hr {
+	margin: 10px 0 ;
+	border-width: .5px #f7f7f7;
+}
+.worship-container .wor-box .wor-content h5 {
+	padding-top: 10px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 1.1rem;
+}
+
+/*############################################################################################################*/
+/*############################################################################################################*/
+/*Section 1*/
+.section1 {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 50px;
+}
+
+.section1 .sec1-content {
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+	padding:80px 0; 
+}
+
+.section1 .sec1-content .sec1-img img {
+	padding-top: -100px;
+	margin-right: -30px;
+	width: 500px;
+	box-shadow: 10px 20px 20px  rgba(0,0,0,0.3);
+}
+
+.section1 .sec1-content .sect1-details {
+	width: 30%;
+
+}
+
+.section1 .sec1-content .sec1-details h1 {
+	font-size: 2.5rem;
+	font-family: century gothic;
+	font-weight: 300;
+	color: #3C085f;
+
+}
+.section1 .sec1-content .sec1-details p {
+	font-family: calibri light;
+	font-size: 20px;
+	padding: 30px 0px 40px;
+	line-height: 1.5rem;
+	text-align: justify;
+	width: 500px;
+}
+
+.section1 .sec1-content .sec1-details a {
+	font-size: 18px;
+	padding: 15px 20px;
+	text-align: justify;
+	width: 500px;
+	background: #3C085f;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;	
+	transition: .5s ease;
+}
+
+.section1 .sec1-content .sec1-details a:hover {
+	background: #fff;
+	border:.5px solid #3C085f;
+	color: #3C085f;
+	font-weight: 900;
+}
+
+/* Section2 */
+.section2 {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin: 50px 0 0;
+	background: url(../img/worship9.jpg) no-repeat;
+	background-size:cover;
+	background-position: center; 
+}
+
+.section2 .sec2-details {
+	width: 100%;
+	height: 350px;
+	background:rgba(60,8,96,0.9);
+	letter-spacing: 1.3px;
+}
+
+.section2 .sec2-details h3 {
+	width: 80%;
+	text-align: center;
+	padding: 100px 120px 50px;
+	font-size: 2rem; 
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1.3px;
+}
+
+
+.section2 .sec2-details p {
+	text-align: center;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+
+
+/* End of section 2*/
+
+/* TEstimony*/
+
+.test-container {
+	position: relative;
+	width: 100%;
+	background: url(../img/test.jpg) no-repeat;
+	background-size: cover;	
+
+
+
+}
+
+.test-container .test-content {
+	display: flex;
+	background: rgba(255,255,255,0.3);
+	
+}
+
+
+
+.test-img {
+	width: 50%;
+	padding: 50px;
+	
+}
+
+.test-img img {
+	width: 500px;
+}
+
+
+
+.test-container .test-content .test-details {
+	width: 50%;
+	padding:0 50px 50px;
+	background: #a72c17;
+	
+
+}
+
+.test-container .test-content .test-details h3 {
+
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #fff
+}
+
+.test-details .inputbox {
+	position: relative;
+}
+
+.test-details .inputbox input {
+	width: 500px;
+	height: .5rem;
+	padding: 20px 0 20px 10px;
+	color: #222;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	outline: none;
+	font-family: century gothic;
+	font-size: 20px;
+	border: none;
+}
+
+
+.test-details .inputbox textarea {
+	width: 500px;
+	height: 150px;
+	font-family: century gothic;
+	font-size: 20px;
+	border-radius: 5px;
+	padding: 20px 0 20px 10px;
+}
+
+.inputbox label {
+	position: absolute;
+	top:-25px;
+	left: 0;
+	color: #fff;
+	font-size: 20px;	
+}
+
+.test-details #submit-btn {
+	font-size: 18px;
+	padding: 10px 25px;
+	margin-top: 20px;
+	color: #a72c17;
+	border-radius: 5px;
+	font-family: century gothic;
+	letter-spacing: 1px;
+	border: none;
+}
+
+.test-details #submit-btn:hover {
+	background: transparent;
+	border:1px solid #fff;
+	border-radius: 10px;
+}
+
+/* End of testimony*/
+/*#########################################################*/
+
+/*footer*/
+footer {
+	background: #222;
+	
+}
+footer .footer-content {
+	display: flex;
+	justify-content: space-between;
+}
+footer .footer-content .ft-left {
+	width: 33.33%;
+	color: #dcdcdc;
+	padding: 50px 30px 0px; 
+}
+
+
+footer .footer-content .ft-left h2{
+	padding-bottom: 30px;
+	color:#777;
+}
+
+footer .footer-content .ft-left p {
+	font-size: 1rem;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	color: #777;
+}
+footer .footer-content .ft-left p strong {
+	color: #777;
+	letter-spacing: 0;
+	font-weight: 800;
+}
+
+footer .footer-content .ft-left .end {
+	text-transform: uppercase;
+	color: #888;
+	font-weight: 1000;
+}
+footer .footer-content .ft-left hr {
+	border-width: .5px;
+	margin-bottom: 20px;
+	border-color: #333;
+}
+
+
+footer .footer-content .ft-center {
+	width: 33.33%;
+	color: #888;
+	padding: 50px 30px; 
+	margin-left: 80px;
+}
+
+footer .footer-content .ft-center h3{
+	padding-bottom: 30px;
+}
+
+
+footer .footer-content .ft-center .social-icons .f-btn {
+	margin: 30px 10px 0 0;
+	display: inline-block;
+	border-radius: 50%;
+	padding:13px 0 0 13px;
+
+}
+
+footer .footer-content .ft-center .social-icons .f-btn i{
+	font-size: 23px;
+	color: #888;
+	transition: .5s ease;
+}
+
+
+footer .footer-content .ft-center .social-icons .f-btn:hover i {
+	transform: scale(1.3);
+	color: #db5742;
+}
+
+.cright	{
+	background: rgba(0,0,0,0.2);
+	height: 50px;
+	text-align: center;
+	color: #dcdcdc;
+	padding-top: 20px;
+}
+
+
+
+footer .footer-content .ft-right {
+	
+	width: 33.33%;
+	color: #888;
+	padding: 50px 30px; 
+
+} 
+footer .footer-content .ft-right .ft-navigation{
+	padding-top: 30px;
+	display: block;
+}
+
+
+footer .footer-content .ft-right .ft-navigation li, a{
+	list-style: none;
+	text-decoration: none;
+	color: #888;
+	font-weight: 1000;
+}
+
+footer .footer-content .ft-right .ft-navigation li {
+	margin-bottom: 10px;
+}
+
+footer .footer-content .ft-right .ft-navigation li a:hover {
+	transform: scale(1.3);
+	color: #db5742;
+}
+
+/*End of footer*/
+
+
+
+
+/*#########################################################*/
+/* Nav 2 css*/
+.nav-2 .logo{
+	margin-left:100px; 
+}
+.nav-2 {
+	width: 100%;
+	height: 50px;
+	background: #3C0860;
+	padding: 20px 0px;
+}
+.nav-2 ul {
+	float: right;
+	margin: -75px 100px 0 0 ;
+	
+
+}
+
+.nav-2 ul li {
+
+	display: inline-block;
+	line-height: 79px;
+	margin: 0 5px;
+}
+
+.nav-2 ul li a {
+	text-transform: uppercase; 
+	color: #fff;
+	font-size: 16px;
+	font-family: century gothic;
+	font-weight: 800;
+}
+
+
+.nav-2 li.active {
+	background: rgba(0,0,0,0.2);
+	transition: 0.5s ease;
+}
+
+
+
+ /*#######################################################################################################################################*/
+/*Blog page*/
+.blog-banner {
+	height: 300px;
+	background: url(../img/gw-plain2.jpg)  no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.blog-container {
+
+	position: relative;
+	margin:  0 100px;
+	
+
+}
+
+
+.blog-container .blog-content {
+	position: relative;
+	margin:20px; 
+	padding: 20px 50PX; 
+	border-radius: 10px;
+}
+
+.blog-header {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px 20px 40PX 20PX;
+	margin-top: -20px;
+}
+
+.blog-container .blog-content h1{
+	font-size: 2.5rem;
+	letter-spacing: -1px;
+	font-weight: 500;
+	padding: 30px 0 10px;
+
+}
+
+.blog-container .blog-content hr {
+	border: .7px solid #dcdcdc;
+}
+.blog-container .blog-content #blog-tnd{
+	border: 3px solid #db5742;
+	margin: -5px 0 50px ;
+	width: 100px;
+}
+
+.blog-boxes {
+	position: relative;
+	background: #fff;
+	border-radius: 10px;
+
+
+}
+
+.blog-boxes .blog-box {
+	display: flex;
+	margin:20px 0;
+	padding-left: 50px;
+	transition: .5s ease;
+}
+
+.blog-boxes .blog-box .blog-details {
+	padding:10px 20px ; 
+}
+
+.blog-boxes .blog-box .blog-details a h3{
+	color: #222;
+	font-size:1.5rem;
+	letter-spacing:; 
+	padding: 10px 0; 
+
+}
+.blog-boxes .blog-box .blog-details p{
+	font-size:18px;
+	letter-spacing:1px;
+	padding:0 60px 10px 0;  
+
+}
+.blog-boxes .blog-box .blog-details span{
+	display: flex;
+	color: #222;
+	font-size: 15;
+}
+.blog-boxes .blog-box .blog-details span i {
+	margin-right: 10px;
+}
+
+.blog-boxes .blog-box img {
+	width: 250px;
+	padding:20px;
+}
+
+.blog-boxes .blog-box:hover {
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+	transform: scale(1.05);
+}
+
+
+
+/*#######################################################################################################################################*/
+/*video page*/
+
+.video-banner {
+	position: relative;
+	height: 300px;
+	width: 100%;
+	background: url(../img/gw-plain4.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.video-container {
+	position: relative;
+	width: 80%;
+	margin: 70px 100px;
+	display:flex;
+}
+.video-container .video-box {
+	width: 300px;
+	margin:0 30px;
+	
+}
+
+.vid-details h3 {
+	color: #333;
+	padding: 20px 0 0px;
+}
+.vid-details span {
+	display: flex;
+	color: #333;
+	margin-top: -10px;
+}
+
+.vid-details span i{
+	margin-right: 10px;
+}
+
+
+
+
+/*###########################################################################################################################*/
+/*###########################################################################################################################*/
+
+/* About Page*/
+.about-banner {
+	width: 100%;
+	height: 300px;
+	background: url(../img/gw-plain.jpg) no-repeat;
+	background-size:cover;
+	background-position: center;
+}
+.abt-details{
+	position: relative;
+	display: flex;
+}
+
+ .abt-contact {
+	position: relative;
+	margin:20px; 
+	padding: 20px ;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.abt-content{
+	margin: 20px;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 10px;
+}
+
+.abt-content h1{
+	font-size: 2.5rem;
+	letter-spacing: -1px;
+	font-weight: 500;
+	padding: 30px 0 10px;
+}
+
+.abt-details hr {
+	border: .7px solid #dcdcdc;
+}
+.abt-details #abt-tnd{
+	border: 3px solid #db5742;
+	margin: -5px 0 50px ;
+	width: 100px;
+}
+.abt-content p {
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+	color: #222;
+	text-align: justify;
+}
+
+.abt-contact {
+	position: relative;
+	width: 100%;
+
+}
+
+
+
+.abt-contact form {
+	width: 85%;
+	margin: 40px 20px 0 10px;
+	padding: 50px 15px 30px 20px;
+	background: #a72c17;
+	border-radius: 10px;
+}
+
+.abt-contact .connectbox {
+	position: relative;
+}
+
+.abt-contact .connectbox input {
+	width:300px;
+	height: 22px;
+	padding: 10px 0;
+	color: #222;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	outline: none;
+	font-family: century gothic;
+	font-size: 20px;
+	border: none;
+}
+
+
+.abt-contact .connectbox textarea {
+	width: 300px;
+	height: 130px;
+	font-family: century gothic;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+.abt-contact .connectbox label {
+	position: absolute;
+	top:-25px;
+	left: 0;
+	color: #fff;
+	font-size: 20px;	
+}
+
+.abt-contact #submit-btn {
+	width: 300px;
+	font-size: 18px;
+	padding: 10px 25px;
+	margin-top: 20px;
+	color: #a72c17;
+	border-radius: 5px;
+	font-family: century gothic;
+	letter-spacing: 1px;
+	border: none;
+}
+
+.test-details #submit-btn:hover {
+	background: transparent;
+	border:1px solid #fff;
+	color: #fff;
+}
